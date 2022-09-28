@@ -1,0 +1,27 @@
+.p-sidenav-category__list {
+  margin-top: 1.7rem;
+  margin-left: 1rem;
+}
+
+.p-sidenav-category__item {
+  margin-top: 1.7rem;
+  line-height: 2.25;
+}
+
+.p-sidenav-category__link {
+  line-height: 2.25;
+  font-size: 16px;
+}
+.p-sidenav-category__link::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 12px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/icons/icon-arrow--blue.svg");
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=p-sidenav-category.css.map */
