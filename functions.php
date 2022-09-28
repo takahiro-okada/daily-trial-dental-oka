@@ -217,3 +217,11 @@ function single_noindex()
   }
 }
 add_action('wp_head', 'single_noindex');
+
+
+add_action('template_redirect', function () {
+  ob_start(function ($buffer) {
+    $buffer = str_replace(array('type="text/javascript"', "type='text/javascript'"), '', $buffer);
+    return $buffer;
+  });
+});
