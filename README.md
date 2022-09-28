@@ -4,7 +4,7 @@
  【デイトラ卒業課題】歯科医院『みなみ歯科クリニック』
 ## General
 URL
-https://daytra-dental.jumboworld.jp/
+https://daytra-dental.jumboworld.jp/  
 User Name: demo  
 Password: demo  
 
