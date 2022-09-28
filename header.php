@@ -50,12 +50,12 @@
       <div class="l-header__drawer c-drawer" id="js-drawer">
         <div class="c-drawer__logo"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/common/logo.svg" alt="ロゴ"></div>
         <ul class="c-drawer__list">
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>" class="c-drawer__link <?php echo is_front_page() ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-home'); ?><span class="c-drawer__text">ホーム</span></a></div>
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>/about" class="c-drawer__link <?php echo is_page('about') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-building'); ?><span class="c-drawer__text">当院について</span></a></div>
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>/medical" class="c-drawer__link <?php echo is_page('medical') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-file'); ?><span class="c-drawer__text">診療案内</span></a></div>
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>/staff" class="c-drawer__link <?php echo !is_front_page() && get_post_type() === 'staff' ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-staff'); ?><span class="c-drawer__text">スタッフ紹介</span></a></div>
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>/blog" class="c-drawer__link <?php echo !is_front_page() && get_post_type() === 'blog' ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-staffblog'); ?><span class="c-drawer__text">スタッフブログ</span></a></div>
-          <div class="c-drawer__item"><a href="<?php echo home_url(); ?>/contact" class="c-drawer__link <?php echo is_page('contact') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-mail'); ?><span class="c-drawer__text">お問い合わせ</span></a></div>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>" class="c-drawer__link <?php echo is_front_page() ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-home'); ?><span class="c-drawer__text">ホーム</span></a></li>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>/about" class="c-drawer__link <?php echo is_page('about') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-building'); ?><span class="c-drawer__text">当院について</span></a></li>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>/medical" class="c-drawer__link <?php echo is_page('medical') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-file'); ?><span class="c-drawer__text">診療案内</span></a></li>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>/staff" class="c-drawer__link <?php echo !is_front_page() && get_post_type() === 'staff' ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-staff'); ?><span class="c-drawer__text">スタッフ紹介</span></a></li>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>/blog" class="c-drawer__link <?php echo !is_front_page() && get_post_type() === 'blog' ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-staffblog'); ?><span class="c-drawer__text">スタッフブログ</span></a></li>
+          <li class="c-drawer__item"><a href="<?php echo home_url(); ?>/contact" class="c-drawer__link <?php echo is_page('contact') ? 'is-active' : ''; ?>"><?php get_template_part('template-parts/icons/icon-mail'); ?><span class="c-drawer__text">お問い合わせ</span></a></li>
         </ul>
       </div>
     </div>
